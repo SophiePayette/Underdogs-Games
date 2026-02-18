@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head profile="http://dublincore.org/documents/2008/08/04/dc-html/">
     <meta charset="UTF-8">
-    <title>Underdogs Studio</title>
+    <title>Underdogs Games</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Google Fonts -->
@@ -17,7 +17,23 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+
+    <!-- Metadata --> 
+        <link rel="schema.DC" href="http://purl.org/dc/elements/1.1/">
+        <link rel="schema.DCTERMS" href="http://purl.org/dc/terms/">
+        <meta name="DCTERMS.Alternative" content="Heroes of Tomorrow">
+        <meta name="DC.Title" content="Underdogs Games">
+        <meta name="DC.Creator" content="Underdogs Games">
+        <meta name="DC.Subject" content="indie game">
+        <meta name="DC.Subject" content="strategy game">
+        <meta name="DC.Subject" content="management game">
+        <meta name="DC.Subject" content="sim-like">
+        <meta name="DC.Description"
+            content="A Montreal indie game studio working on Heroes of Tomorrow, a strategy management game">
+        <meta name="DCTERMS.Created" content="2026-02-17">
+        <meta name="DC.Audience" content="gamers">
+        <meta name="DC.Audience" content="young adults">
+    </head>
 
 <body>
 
@@ -25,12 +41,13 @@
 
     <nav>
         <div class="topnav" id="myTopnav">
-            <a href="#home">
+            <a href="#home" class="btn">
                 <img src="img/Underdogs_Games_-_Black.png" class="nav-logo">
             </a>
             <div class="nav-hidden">
                 <a href="#news" class="btn">Dev Logs</a>
                 <a href="#about" class="btn">About</a>
+                <a href="#about" class="btn">FAQ</a>
             </div>
             <div class="nav-hidden">
                 <a href="#" class="fa fa-twitter"></a>
@@ -50,6 +67,10 @@
                 Heroes of <br>
                 <span class="highlight">Tomorrow</span>
             </h1>
+
+            <br><br>
+
+            <p class="font-marker">Manage heroes </p>
 
             <br><br>
 
@@ -138,7 +159,7 @@
             </div>
 
             <div class="font-marker">
-               <p>#HeroesOfTomorrow</p>
+                <p>#HeroesOfTomorrow</p>
             </div>
 
         </div>

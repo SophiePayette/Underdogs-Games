@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Underdogs Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Permanent+Marker&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav>
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="btn">
+                <img src="img/Underdogs_Games_-_Black.png" class="nav-logo">
+            </a>
+            <div class="nav-hidden">
+                <a href="#news" class="btn">Dev Logs</a>
+                <a href="#about" class="btn">About</a>
+            </div>
+            <div class="nav-hidden">
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </nav>
+    <!-- ================= ABOUT ================= -->
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="container flex center">
+
+            <div class="footer">
+                <div>
+                    <img class="nav-logo" src="img/Underdogs_Games_-_White.png" alt="Logo Underdogs">
+                </div>
+                <p>© 2026 Underdogs Studio. All rights reserved.</p>
+            </div>
+
+            <div class="font-marker">
+               <p>#HeroesOfTomorrow</p>
+            </div>
+
+        </div>
+    </footer>
+    <!-- ================= JAVASCRIPT ================= -->
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
