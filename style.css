@@ -106,13 +106,15 @@ body {
     display: none;
 }
 
-.nav-hidden .fa, .nav-hidden .btn{
+.nav-hidden .fa,
+.nav-hidden .btn {
     color: #0f172a;
     transition: 0.2s;
 }
 
-.nav-hidden .fa:hover, .nav-hidden .btn:hover{
-    color:#E63946;
+.nav-hidden .fa:hover,
+.nav-hidden .btn:hover {
+    color: #E63946;
 }
 
 .nav-hidden .fa {
@@ -231,6 +233,8 @@ body {
     -webkit-text-stroke: 2px black;
 }
 
+
+
 @media (max-width: 720px) {
     .hero {
         min-height: 45vh;
@@ -293,11 +297,21 @@ body {
 }
 
 .features-section .font-marker {
-    color: #E63946;
+    color: #c51e2c;
+    font-size: 2rem;
 }
 
-.dark .features-section .font-marker {
-    color: var(--highlight);
+.description {
+    border: 4px solid black;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px 0 black;
+    text-align: justify;
+    padding: 1%;
+    margin: 0 0 20px 0;
+
+    background-color: #FFD166;
+    color: #0f172a;
 }
 
 .card {
@@ -381,7 +395,7 @@ footer .brand {
     font-style: italic;
 }
 
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
     align-items: center;
